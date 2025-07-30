@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     let status = 'Invalid';
     if (username === 'Angel.calidad' && password === 'DCI_calidad') {
         status = 'Success';  
-        window.location.href = 'https://sites.google.com/view/dci-work-perfilescontrol/asignaci%C3%B3n-general';
+        window.location.href = 'https://sites.google.com/view/perfiles-dci-work-tb001/cliente-001';
     } else if (username === 'Julio.administración' && password === 'DCI_administración') {
         status = 'Success';
         window.location.href = 'https://sites.google.com/view/dci-work-perfilescontrol/asignaci%C3%B3n-general';
